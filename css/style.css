@@ -892,6 +892,13 @@ button[type="reset"] {
     align-items: center;
     text-align: justify;
     width: 100%;
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	
+	
+	align-content: stretch;
 } 
 
 .presentation
@@ -902,10 +909,10 @@ button[type="reset"] {
     align-content: stretch;
 } 
 
-.presentation a
+.presentation a , .presentation strong
 {
     
-   
+   text-align: center;
     width: 180%;
     
 } 
